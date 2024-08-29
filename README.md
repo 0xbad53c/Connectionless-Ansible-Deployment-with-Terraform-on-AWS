@@ -1,4 +1,4 @@
-# Connectionless-Ansible-Deployment-with-Terraform-on-AWS
+# Connectionless Ansible Deployment with Terraform on AWS
 Deploying Ansible playbooks &amp; roles to EC2 instances via Terraform from anywhere without interruption and without accessing SSH. Blog post here: https://red.0xbad53c.com/red-team-infrastructure/aws/connectionless-ansible-deployment-with-terraform-via-ssm
 
 # How to use

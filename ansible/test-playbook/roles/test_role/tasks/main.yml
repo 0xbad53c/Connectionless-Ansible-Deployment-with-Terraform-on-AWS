@@ -1,0 +1,6 @@
+---
+# tasks file
+- name: Create hello_world.txt with custom content
+  copy:
+    content: "hello {{ testparameter }}"
+    dest: /hello_world.txt

@@ -1,0 +1,6 @@
+---
+- name: "Configure test"
+  hosts: localhost
+  roles:
+    - test_role
+    - geerlingguy.apache

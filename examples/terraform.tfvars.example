@@ -1,0 +1,10 @@
+// copy this file to terraform.tfvars in the root
+vpc_name               = "your_vpc_name"
+server_name            = "your_server_name"
+subnet_name            = "your_subnet_in_vpc_name"
+ebs_volume_size        = 8 // size of ENS volume in GB
+instance_type          = "t3a.nano" // instance type to deploy
+path_to_ansible_folder = "ansible/test-playbook" // playbook folder to be zipped and uploaded
+ansible_extra_vars = {
+    testparameter = "test"
+}

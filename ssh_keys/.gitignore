@@ -1,0 +1,5 @@
+# Only used to share webroot zip with instance
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
